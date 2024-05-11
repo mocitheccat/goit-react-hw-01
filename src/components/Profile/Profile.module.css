@@ -1,3 +1,68 @@
 .ProfileCard {
-    border: 2px solid #CCC;
+    border: 3px solid #212121;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 500px;
 }
+
+.ProfileCardInfo {
+    padding: 16px;
+    text-align: center;
+}
+
+.ProfileImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+    background-color: #212121;
+}
+
+.PrimaryText {
+    color: #808080;
+    font-size: 24px;
+}
+
+.MainText {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 2em;
+}
+
+.BiggerText {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ProfileStats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c9c9c9;
+    overflow: hidden;
+}
+
+.ProfileStatsItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    width: calc(100% / 3);
+    border-top: 2px solid #808080;
+    padding: 10px;
+}
+
+.ProfileStatsItem:not(:last-child) {
+    border-right: 2px solid #808080;
+}
+
+.SecondaryText {
+    composes: PrimaryText;
+    color: black;
+}
+
+
+
