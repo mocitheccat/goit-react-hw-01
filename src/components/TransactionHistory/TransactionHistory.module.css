@@ -1,0 +1,37 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.tableHead tr {
+    text-align: center;
+
+    background-color: #353839;
+    color: #ffffff;
+}
+
+.tableHead th {
+    padding: 10px 0;
+    width: calc(100% / 3);
+}
+
+.tableBody td:not(:first-child) {
+    text-align: center;
+    padding: 14px 0 14px 0;
+}
+
+
+.type {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.tableBody tr:nth-child(even) {
+    background-color: #d3d3d3;
+}

@@ -33,3 +33,9 @@ img {
     width: calc(100vw - 100px);
     margin: 0 auto;
 }
+
+table,
+th,
+td {
+    border: 1px solid black;
+}

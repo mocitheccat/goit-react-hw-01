@@ -1,0 +1,17 @@
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
+
+.friendCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #808080;
+    padding: 12px;
+    border-radius: 4px;
+}
